@@ -1,4 +1,15 @@
 // Assignment code here
+var passwordParameters = [{"Question": "Does your password require uppercase letters?"},
+                          {"Question": "Does your password require lowercase letters?"},
+                          {"Question": "Dooes your password require special characters?"},
+                          {"Question": "Does your password require numbers?"}]
+var upperLetters = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+var lowerLetters = ["abcdefghijklmnopqrstuvwxyz"]
+var numbers = [0123456789]
+var specialCharacters = ["!#$%&()*+,-./:;<=>?@[\]^_`{|}~"]
+var passwordLength = 8
+var newPassword = ""
+var criteria = confirm(passwordParameters[i].Question)
 
 
 // Get references to the #generate element
