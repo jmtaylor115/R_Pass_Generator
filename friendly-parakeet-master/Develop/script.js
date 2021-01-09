@@ -3,10 +3,10 @@ var passwordParameters = [{"Question": "Does your password require uppercase let
                           {"Question": "Does your password require lowercase letters?"},
                           {"Question": "Dooes your password require special characters?"},
                           {"Question": "Does your password require numbers?"}]
-var upperLetters = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
-var lowerLetters = ["abcdefghijklmnopqrstuvwxyz"]
-var numbers = [0123456789]
-var specialCharacters = ["!#$%&()*+,-./:;<=>?@[\]^_`{|}~"]
+var upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var lowerLetters = "abcdefghijklmnopqrstuvwxyz"
+var numbers = [0,1,2,3,4,5,6,7,8,9]
+var specialCharacters = "!#$%&()*+,-./:;<=>?@[\]^_`{|}~"
 var passwordLength = 8
 var newPassword = ""
 var criteria = confirm(passwordParameters[i].Question)
